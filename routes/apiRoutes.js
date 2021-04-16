@@ -10,6 +10,9 @@ module.exports = app => {
     })
     });
 
+    app.post("/api/notes", (req, res) => {
+        const saveNOte
+    }
 
 
     app.delete('/api/notes/:id', (req, res) => {
@@ -18,4 +21,5 @@ module.exports = app => {
             const idNum = req.params.id;
 
         })
-    });
+    })
+};
